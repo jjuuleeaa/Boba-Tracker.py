@@ -1,4 +1,4 @@
-# 🍹 Boba Flavor Tracker
+# 🧋 Boba Flavor Tracker
 
 Welcome to the **Boba Flavor Tracker** – your personal café-inspired digital log for capturing every sip of boba goodness! Designed to help you track, rate, and review each flavor you try, this tracker adds a touch of fun and organization to your boba adventures.
 
@@ -8,13 +8,13 @@ Welcome to the **Boba Flavor Tracker** – your personal café-inspired digital 
 - **Flavor Notes & Ratings**: Add detailed notes on flavor, sweetness level, toppings, and much more.
 - **Excel Export**: Easily save your notes to Excel with text wrapping, color-coded cells, and custom styling to keep your boba records beautiful and organized.
 
-## Tech Stack 💻
+## Tech Stack 🍵
 
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**: Python (Flask)
 - **Data Export**: Excel via `pandas` and `openpyxl`
 
-## How to Use 🚀
+## How to Use 🍡
 
 1. Clone this repository:
    ```bash
