@@ -1,0 +1,59 @@
+/* boba_tracker.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fbeec1;
+    color: #4b3832;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #d4a373;
+    margin-top: 20px;
+}
+
+.table-container {
+    margin: 20px auto;
+    overflow-x: auto;
+    width: 90%;
+    max-width: 1200px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff7e6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #d4a373;
+    text-align: left;
+}
+
+th {
+    background-color: #d4a373;
+    color: white;
+    font-weight: bold;
+}
+
+td {
+    overflow-wrap: break-word;
+    max-width: 150px;
+}
+
+button {
+    background-color: #d4a373;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b77b54;
+}

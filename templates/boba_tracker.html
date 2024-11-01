@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boba Flavor Tracker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='boba_tracker.css') }}">
+</head>
+<body>
+    <h1>Boba Flavor Tracker</h1>
+    <div class="table-container">
+        <table id="bobaTable">
+            <thead>
+                <tr>
+                    <th>Date Tried</th>
+                    <th>Flavor Name</th>
+                    <th>Flavor Type</th>
+                    <th>Tea Base</th>
+                    <th>Toppings</th>
+                    <th>Sweetness Level</th>
+                    <th>Temperature</th>
+                    <th>Taste Rating</th>
+                    <th>Notes</th>
+                    <th>Would Try Again?</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                <!-- Dynamic rows will be added here -->
+            </tbody>
+        </table>
+    </div>
+    <button onclick="addRow()">Add New Flavor</button>
+    <button onclick="saveToExcel()">Save to Excel</button>
+    <script src="{{ url_for('static', filename='boba_tracker.js') }}"></script>
+</body>
+</html>
